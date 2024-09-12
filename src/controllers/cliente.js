@@ -1,6 +1,7 @@
 const Cliente = require('../models/cliente.js');
 
 exports.createCliente = async (req, res) => {
+  // console.log(req.body);
   try {
     const cliente = new Cliente(req.body);
     await cliente.save();

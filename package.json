@@ -1,8 +1,21 @@
 {
   "dependencies": {
     "axios": "^1.7.7",
-    "express": "^4.20.0",
+    "express": "^4.21.0",
     "mongoose": "^8.6.2",
-    "nodemon": "^3.1.4"
-  }
+    "nodemon": "^3.1.4",
+    "router": "^1.3.8"
+  },
+  "name": "cliente_pet",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
